@@ -1,0 +1,75 @@
+.door-riddle__sign-list {
+	width: 310px;
+	background-color: rgba(255,255,255, 0.3);
+	border-radius: 10px;
+	-moz-user-select: none;
+	 -ms-user-select: none;
+	     user-select: none;
+	
+}
+
+.door-riddle__sign {
+	width: 80px;
+	height: 80px;	
+	margin: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	position: relative;
+	will-change: transform;
+	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
+}
+
+.door-riddle__sign_matched {
+	opacity: 0;
+}
+
+.door-riddle__sign_0 {
+	background-image: url(../img/sign0.png);
+}
+
+.door-riddle__sign_1 {
+	background-image: url(../img/sign1.png);
+}
+
+.door-riddle__sign_2 {
+	background-image: url(../img/sign2.png);	
+}
+
+.door-riddle__sign_3 {
+	background-image: url(../img/sign3.png);
+}
+
+.door-riddle__sign_4 {
+	background-image: url(../img/sign4.png);
+}
+
+.door-riddle__sign_5 {
+	background-image: url(../img/sign5.png);	
+}
+
+.door-riddle__sign_6 {
+	background-image: url(../img/sign6.png);
+}
+
+.door-riddle__sign_7 {
+	background-image: url(../img/sign7.png);
+}
+
+.door-riddle__sign_8 {
+	background-image: url(../img/sign8.png);	
+}
+
+.door-riddle__sign_9 {
+	background-image: url(../img/sign9.png);
+}
+
+.door-riddle__sign_10 {
+	background-image: url(../img/sign10.png);
+}
+
+.door-riddle__sign_11 {
+	background-image: url(../img/sign11.png);	
+}

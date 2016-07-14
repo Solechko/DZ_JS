@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Dungeon of Doom</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/door2.css">
+    <link rel="stylesheet" href="css/door3.css">
+    <link rel="stylesheet" href="css/box.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- Thanks for assets to Kenny at http://kenney.nl/assets/platformer-pack-redux -->
+    <div class="app container">
+        <div class="level level_0"><div class="door door_locked door_level_0"></div></div>
+        <div class="level level_1"><div class="door door_locked door_disabled door_level_1"></div></div>
+        <div class="level level_2"><div class="door door_locked door_disabled door_level_2"></div></div>
+        <div class="level level_3"><div class="box box_locked door door_disabled door_level_3"></div></div>
+        <div class="level level_4"></div>
+
+        <div class="popup popup_hidden popup_level_0">
+            <div class="popup__content popup__content_level_0" touch-action="none">
+                <div class="popup__close">╳</div>
+                <div class="door-riddle">
+                    <div class="door-riddle__button door-riddle__button_0"></div>
+                    <div class="door-riddle__button door-riddle__button_1"></div>
+                    <div class="door-riddle__button door-riddle__button_2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup_hidden popup_level_1">
+            <div class="popup__content popup__content_level_1" touch-action="none">
+                <div class="popup__close">╳</div>
+                <div class="door-riddle">
+                    <div class="door-riddle__sign-list">                       
+                        <div class="door-riddle__sign door-riddle__sign_8"  data-match="door-riddle__sign_7"></div>
+                        <div class="door-riddle__sign door-riddle__sign_2"  data-match="door-riddle__sign_9"></div>
+                        <div class="door-riddle__sign door-riddle__sign_4"  data-match="door-riddle__sign_3"></div>
+                        <div class="door-riddle__sign door-riddle__sign_0"  data-match="door-riddle__sign_1"></div>
+                        <div class="door-riddle__sign door-riddle__sign_10" data-match="door-riddle__sign_11"></div>
+                        <div class="door-riddle__sign door-riddle__sign_6"  data-match="door-riddle__sign_5"></div>
+                        <div class="door-riddle__sign door-riddle__sign_3"  data-match="door-riddle__sign_4"></div>
+                        <div class="door-riddle__sign door-riddle__sign_7"  data-match="door-riddle__sign_8"></div>
+                        <div class="door-riddle__sign door-riddle__sign_1"  data-match="door-riddle__sign_0"></div>
+                        <div class="door-riddle__sign door-riddle__sign_5"  data-match="door-riddle__sign_6"></div>
+                        <div class="door-riddle__sign door-riddle__sign_11" data-match="door-riddle__sign_10"></div>
+                        <div class="door-riddle__sign door-riddle__sign_9"  data-match="door-riddle__sign_2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup_hidden popup_level_2">
+            <div class="popup__content popup__content_level_2" touch-action="none">
+                <div class="popup__close">╳</div>
+                <div class="door-riddle">
+                    <div class="door-riddle__map">                       
+                        <div class="door-riddle__map-part door-riddle__map-part_0"></div>
+                        <div class="door-riddle__map-part door-riddle__map-part_1"></div>
+                        <div class="door-riddle__map-part door-riddle__map-part_2"></div>
+                        <div class="door-riddle__map-part door-riddle__map-part_3"></div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup_hidden popup_level_3">
+            <div class="popup__content popup__content_level_3" touch-action="none">
+                <div class="popup__close">╳</div>
+                <div class="box-riddle">
+                    <div class="box-riddle-items">
+                        <div class="box-riddle__locker"></div> 
+                        <div class="box-riddle__key" data-prev="box-riddle__letter_5"></div>               
+                        <div class="box-riddle__letter box-riddle__letter_0"></div>
+                        <div class="box-riddle__letter box-riddle__letter_1" data-prev="box-riddle__letter_0"></div>
+                        <div class="box-riddle__letter box-riddle__letter_2" data-prev="box-riddle__letter_1"></div>
+                        <div class="box-riddle__letter box-riddle__letter_3" data-prev="box-riddle__letter_2"></div>
+                        <div class="box-riddle__letter box-riddle__letter_4" data-prev="box-riddle__letter_3"></div>
+                        <div class="box-riddle__letter box-riddle__letter_5" data-prev="box-riddle__letter_4"></div>      
+                    <div/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/pep/0.4.1/pep.js"></script>
+    <script src="js/doorBase.js"></script>
+    <script src="js/doorOthers.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
